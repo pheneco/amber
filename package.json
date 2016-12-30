@@ -1,0 +1,21 @@
+{
+	"name"			: "Amber",
+	"version"		: "0.1.0",
+	"description"	: ":shrug:",
+	"author"		: {
+		"name"		: "Trevor J Hoglund",
+		"email"		: "trewbot@phene.co",
+		"url"		: "trevorjhoglund.com"
+	},
+	"contributors"	: [
+		{
+			"name"	: "Travis Palmer",
+			"email"	: "savoron@phene.co",
+			"url"	: "localhost"
+		}
+	],
+	"main"			: "amber.js",
+	"depenedencies"	: {
+		"express"	: "^4.14.0"
+	}
+}
