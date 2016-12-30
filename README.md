@@ -14,3 +14,4 @@ An art sharing and critiquing website built on a MEAN Stack.
 2. Download the repository by running `git clone https://github.com/trewbot/amber`
 
 3. In the created `amber` directory, run `npm install` to download all required npm modules.
+- Savoron
