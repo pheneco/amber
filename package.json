@@ -1,13 +1,29 @@
 {
-  "name": "meteor-test",
+  "name": "Amber",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/trewbot/amber",
+  "description": ":shrug:",
+  "author": {
+    "name": "Trevor J Hoglund",
+    "email": "trewbot@phene.co",
+    "url": "trevorjhoglund.com"
+  },
+  "contributors": [
+    {
+      "name": "Travis Palmer",
+      "email": "savoron@phene.co",
+      "url": "localhost"
+    }
+  ],
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "angular": "^1.6.0",
-    "angular-meteor": "^1.3.11",
-    "babel-runtime": "6.18.0",
-    "meteor-node-stubs": "~0.2.0"
+	"angular": "^1.6.0",
+	"angular-meteor": "^1.3.11",
+	"babel-runtime": "6.18.0",
+	"meteor-node-stubs": "~0.2.0"
   }
 }
