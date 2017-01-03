@@ -10,6 +10,6 @@ class LoginCtrl {
 
 export default angular.module('loginForm',[angularMeteor])
 	.component('loginForm',{
-		templateUrl	: 'imports/users/loginForm.html',
+		templateUrl	: 'imports/components/users/loginForm.html',
 		controller	: LoginCtrl
 	});
