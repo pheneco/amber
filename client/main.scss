@@ -7,7 +7,7 @@ $grey:						#9e9e9e;
 @mixin font-size($size: 1.4){font-size:($size * 10) + px;font-size:$size + rem;}
 
 	*						{margin:0;zoom:1;font-size:10px;}
-	html					{/*background:$background;*/color:$base;font-family:Roboto, sans-serif;background-attachment:fixed;}
+	html					{background:$background url('/images/birb.jpg');background-position:center center;background-size:cover;color:$base;font-family:Roboto, sans-serif;background-attachment:fixed;}
 	body					{min-height:100%;background-position:center center;background-attachment:fixed;background-size:cover;}
 	body, td				{padding:0;}
 	a						{color:$amber;text-decoration:none;cursor:pointer;}
