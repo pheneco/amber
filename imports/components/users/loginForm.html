@@ -1,18 +1,20 @@
-<div class="card">
+<div class="card login">
 	<form class="form">
 		<fieldset>
 			
-			<label for="username">Username or email address</label>
-			<input id="username" name="username" type="text" autocapitalize="off" autocorrect="off" />
+			<label for="username" class="form-label">Email</label>
+			<input id="username" name="username" type="text" autocapitalize="off" autocorrect="off" class="form-text" />
 			
-			<label for="password">Password</label>
-			<input id="password" name="password" type="password" />
+			<label for="password" class="form-label">Password</label>
+			<input id="password" name="password" type="password" class="form-text" />
 			
+			<!--
 			<p class="form-note">
 				<a title="Show password" href="javascript:void(0);" class="form-show_password">Show password</a>
 			</p>
+			-->
 			
-			<input type="submit" value="Sign in" />
+			<input type="submit" value="Login" class="form-submit" />
 		</fieldset>
 	</form>
 </div>
