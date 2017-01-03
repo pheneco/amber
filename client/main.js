@@ -1,6 +1,6 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import loginForm from '../imports/components/users/loginForm.js';
+import loginForm from '../imports/ui/components/users/loginForm.js';
 
 angular.module('amber',[
 	angularMeteor,
